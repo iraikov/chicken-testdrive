@@ -1,0 +1,24 @@
+;;;; -*- Hen -*-
+
+((egg "testdrive.egg") ; This should never change
+
+ ; List here all the files that should be bundled as part of your egg.  
+
+ (files "testdrive.scm" "testdrive.setup")
+
+ ; Your egg's license:
+
+ (license "GPL-3")
+
+ ; Pick one from the list of categories (see below) for your egg and
+ ; enter it here.
+
+ (category tools)
+
+ ; A list of eggs testdrive depends on.
+
+ (needs regex uri-generic ersatz) 
+
+ (author "Ivan Raikov")
+
+ (synopsis "A simple driver program for continuous integration scripts."))

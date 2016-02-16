@@ -1,0 +1,12 @@
+;;;; -*- Hen -*-
+
+(compile -O -d2 -S testdrive.scm)
+
+(install-program 
+ 'testdrive 
+ 
+ `("testdrive" )
+
+  ; Assoc list with properties for the program:
+  '((version 1.7)))
+
